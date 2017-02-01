@@ -14,6 +14,7 @@ import { ViewProductComponent } from './view-product/view-product.component';
 import { EditProductComponent } from './edit-product/edit-product.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { routing } from './app.routing';
+import { HeaderSidebarComponent } from './header-sidebar/header-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { routing } from './app.routing';
     ProductsComponent,
     ViewProductComponent,
     EditProductComponent,
-    AddProductComponent
+    AddProductComponent,
+    HeaderSidebarComponent
   ],
   imports: [
     BrowserModule,
